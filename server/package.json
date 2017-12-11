@@ -1,0 +1,42 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A sample todo app server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "nodemon-server": "nodemon app --dev",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nedyalkov/todo-app.git"
+  },
+  "keywords": [
+    "faq"
+  ],
+  "author": "Guyon Roche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nedyalkov/todo-app/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.6",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.6",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "concurrently": "^3.5.1",
+    "file-loader": "^0.9.0",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0"
+  }
+}
